@@ -7,7 +7,7 @@ abstract class CountryDataProvider
     public static function data(): array
     {
         return [
-            // A country 
+            // A country
             ['id' => '1', 'name' => 'afghanistan', 'iso2' => 'AF', 'iso3' => 'AFG', 'numcode' => '4', 'phonecode' => '93'],
             ['id' => '2', 'name' => 'albania', 'iso2' => 'AL', 'iso3' => 'ALB', 'numcode' => '8', 'phonecode' => '355'],
             ['id' => '3', 'name' => 'algeria', 'iso2' => 'DZ', 'iso3' => 'DZA', 'numcode' => '12', 'phonecode' => '233'],
@@ -302,7 +302,13 @@ abstract class CountryDataProvider
             // Z Country
             ['id' => '245', 'iso2' => 'ZM', 'name' => 'Zambia', 'iso3' => 'ZMB', 'numcode' => '894', 'phonecode' => '260'],
             ['id' => '246', 'iso2' => 'ZW', 'name' => 'Zimbabwe', 'iso3' => 'ZWE', 'numcode' => '716', 'phonecode' => '263'],
-            
+
+            // Countries from United Kingdom
+            ['id' => '247', 'iso2' => 'ENG', 'name' => 'England', 'iso3' => 'ENG', 'numcode' => '826', 'phonecode' => '44'],
+            ['id' => '248', 'iso2' => 'SCT', 'name' => 'Scotland', 'iso3' => 'SCT', 'numcode' => '826', 'phonecode' => '44'],
+            ['id' => '249', 'iso2' => 'WLS', 'name' => 'Wales', 'iso3' => 'WLS', 'numcode' => '826', 'phonecode' => '44'],
+            ['id' => '250', 'iso2' => 'NI', 'name' => 'Northern Ireland', 'iso3' => 'NIR', 'numcode' => '826', 'phonecode' => '44'],
+
             // Add new country here
         ];
     }

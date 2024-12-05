@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\League;
+use App\Models\Tournament;
 use Illuminate\Http\Request;
 
-class LeagueController extends Controller
+class TournamentController extends Controller
 {
     /**
      * Display a listing of the resource.

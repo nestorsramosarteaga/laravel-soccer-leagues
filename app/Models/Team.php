@@ -11,6 +11,12 @@ class Team extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'name',
+        'flag',
+        'shield'
+    ];
+
 
     public function country(): BelongsTo
     {
