@@ -19,17 +19,17 @@ return new class extends Migration
             $table->unsignedBigInteger('federation_id')->nullable();
             $table->timestamps();
 
-            $table->foreign('country_id')
-                ->references('id')
-                ->on('countries')
-                ->onUpdate('cascade')
-                ->onDelete('cascade');
+            // $table->foreign('country_id')
+            //     ->references('id')
+            //     ->on('countries')
+            //     ->onUpdate('cascade')
+            //     ->onDelete('cascade');
 
-            $table->foreign('federation_id')
-                ->references('id')
-                ->on('federations')
-                ->onUpdate('cascade')
-                ->onDelete('cascade');
+            // $table->foreign('federation_id')
+            //     ->references('id')
+            //     ->on('federations')
+            //     ->onUpdate('cascade')
+            //     ->onDelete('cascade');
         });
     }
 
@@ -41,8 +41,8 @@ return new class extends Migration
 
         Schema::table('tournaments', function (Blueprint $table) {
             // Delete Foreign Key
-            $table->dropForeign(['country_id']);
-            $table->dropForeign(['federation_id']);
+            // $table->dropForeign(['country_id']);
+            // $table->dropForeign(['federation_id']);
         });
 
         Schema::dropIfExists('tournaments');
