@@ -310,6 +310,7 @@ abstract class CountryDataProvider
             ['id' => '250', 'iso2' => 'NI', 'name' => 'Northern Ireland', 'iso3' => 'NIR', 'numcode' => '826', 'phonecode' => '44'],
 
             // Add new country here
+
         ];
     }
 }
