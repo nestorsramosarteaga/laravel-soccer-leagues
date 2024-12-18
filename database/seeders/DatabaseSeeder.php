@@ -13,7 +13,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call(WorldTableSeeder::class);
+        $this->call(CountryStateCityTableSeeder::class);
+        // $this->call(WorldTableSeeder::class); DISABLED
 
         $this->call(FederationSeeder::class);
         $this->call(SeasonSeeder::class);

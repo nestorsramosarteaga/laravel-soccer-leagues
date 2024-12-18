@@ -304,10 +304,12 @@ abstract class CountryDataProvider
             ['id' => '246', 'iso2' => 'ZW', 'name' => 'Zimbabwe', 'iso3' => 'ZWE', 'numcode' => '716', 'phonecode' => '263'],
 
             // Countries from United Kingdom
-            ['id' => '247', 'iso2' => 'ENG', 'name' => 'England', 'iso3' => 'ENG', 'numcode' => '826', 'phonecode' => '44'],
-            ['id' => '248', 'iso2' => 'SCT', 'name' => 'Scotland', 'iso3' => 'SCT', 'numcode' => '826', 'phonecode' => '44'],
-            ['id' => '249', 'iso2' => 'WLS', 'name' => 'Wales', 'iso3' => 'WLS', 'numcode' => '826', 'phonecode' => '44'],
-            ['id' => '250', 'iso2' => 'NI', 'name' => 'Northern Ireland', 'iso3' => 'NIR', 'numcode' => '826', 'phonecode' => '44'],
+            ['id' => '247', 'iso2' => 'EN', 'name' => 'England', 'iso3' => 'ENG', 'numcode' => '826', 'phonecode' => '44'],
+            ['id' => '248', 'iso2' => 'XC', 'name' => 'Scotland', 'iso3' => 'SCO', 'numcode' => '826', 'phonecode' => '44'],
+            ['id' => '249', 'iso2' => 'WL', 'name' => 'Wales', 'iso3' => 'WLS', 'numcode' => '826', 'phonecode' => '44'],
+            ['id' => '250', 'iso2' => 'ND', 'name' => 'Northern Ireland', 'iso3' => 'NIR', 'numcode' => '826', 'phonecode' => '44'],
+
+            ['id' => '248', 'iso2' => 'RS', 'name' => 'Serbia', 'iso3' => 'SRB', 'numcode' => '688', 'phonecode' => '381' ],
 
             // Add new country here
 

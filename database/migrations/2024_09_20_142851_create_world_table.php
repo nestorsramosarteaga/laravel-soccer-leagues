@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration {
 
-
     public function up(): void
     {
         Schema::create('countries', function (Blueprint $table) {
@@ -15,6 +14,7 @@ return new class extends Migration {
             $table->string('iso2', 2)->unique()->index();
             $table->string('iso3', 3)->unique()->index();
             $table->string('numeric_code', 3)->nullable();
+            $table->string('numcode', 3)->nullable();
             $table->string('phonecode')->nullable();
             $table->string('capital')->nullable();
             $table->string('currency')->nullable();
